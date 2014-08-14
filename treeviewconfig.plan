@@ -1,0 +1,30 @@
+Consider:
+	Add: "Add Monitee" button.
+		such_that:
+			enable: always.
+			onAddMoniteeBtnClick:
+				Monitee is added.
+	Add: "Add Destination" button
+		such_that:
+			enable: onMoniteeSelect
+	Add: "TabView".
+		such_that: user can toggle between old view and tree view.
+	Add: Check for cyclic dependencies.
+Setup:
+	onMoniteeSelect
+		enable: addDestBtn, tempStopBtn, RemoveBtn, showDestBtn, addDestBtn
+	onDestinationSelect:
+		enable: tempStopBtn, RemoveBtn.
+onShowDestinationsClick:
+	Check if a monitee has been selected.
+		if it has: ?Reload tree view with the Monitee name as root and the children as the Destinations?(pending thought: COuld just expand that node..lol). Enable a button that will return to entire tree view again.
+		it it hasn't: Expand all the nodes in the whole tree to show ALL Destinations. Change "Show Destinations" to "Hide Destinations".
+onRemoveClick:
+	Validate if selected.
+		if so: Check if selected node is monitee or destination.
+			if selected node is Destination: Confirm and Remove Destination.
+			if Monitee: Confirm and Remove Monitee and all destination list.
+		else:
+			throw exception.
+onTempStopClick:
+	Remove Check from selected monitee.

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FolderMonitor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DefaultView" Type="System.String" Scope="User">
+      <Value Profile="(Default)">listview</Value>
+    </Setting>
+    <Setting Name="TreeStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">collapsed</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

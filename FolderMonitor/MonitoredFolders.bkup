@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FolderMonitor>
+  <Monitee>
+    <Source>c:\Program Files</Source>
+    <Type>Folder</Type>
+    <Destination>c:\newdoc</Destination>
+  </Monitee>
+  <Monitee>
+    <Source>c:\documents and settings\samuel\binreader.cs</Source>
+    <Type>Unknown</Type>
+    <Destination>c:\newfol</Destination>
+  </Monitee>
+  <Monitee>
+    <Source>C:\Documents and Settings\samuel.martey\Desktop\Junk</Source>
+    <Type>Folder</Type>
+    <Destination>C:\Documents and Settings\samuel.martey\Desktop\Toworkon</Destination>
+  </Monitee>
+  <Monitee>
+    <Source>C:\Documents and Settings\samuel.martey\Desktop\cc-config.log</Source>
+    <Type>File</Type>
+    <Destination>C:\Documents and Settings\samuel.martey\Desktop\Toworkon</Destination>
+  </Monitee>
+  <Monitee>
+    <Source>C:\Documents and Settings\samuel.martey\Desktop\cc-config.log</Source>
+    <Type>File</Type>
+    <Destination>C:\Documents and Settings\samuel.martey\Desktop\Unused Desktop Shortcuts</Destination>
+  </Monitee>
+  <Monitee>
+    <Source>C:\Documents and Settings\samuel.martey\Desktop\Far</Source>
+    <Type>Folder</Type>
+    <Destination>C:\Documents and Settings\samuel.martey\Desktop\Toworkon</Destination>
+  </Monitee>
+  <Monitee>
+    <Source>C:\Documents and Settings\samuel.martey\Desktop\Toworkon</Source>
+    <Type>Folder</Type>
+    <Destination>C:\Documents and Settings\samuel.martey\Desktop\Reflector</Destination>
+  </Monitee>
+  <Monitee>
+    <Source>C:\Documents and Settings\samuel.martey\Desktop\Build</Source>
+    <Type>Folder</Type>
+    <Destination>C:\Documents and Settings\samuel.martey\Desktop\Toworkon</Destination>
+  </Monitee>
+</FolderMonitor>
